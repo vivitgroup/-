@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <defs>
+    <linearGradient id="bGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B0000"/>
+      <stop offset="100%" style="stop-color:#6B0000"/>
+    </linearGradient>
+    <linearGradient id="scissorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CC0000"/>
+      <stop offset="100%" style="stop-color:#990000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- B letter - dark red, serif style -->
+  <text x="68" y="165"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="158"
+    font-weight="700"
+    fill="url(#bGrad)"
+    letter-spacing="-4">B</text>
+
+  <!-- S letter - light gray, slightly offset right and up -->
+  <text x="178" y="148"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="140"
+    font-weight="700"
+    fill="#C0C0C0"
+    opacity="0.85">S</text>
+
+  <!-- Scissors - blade 1 (top blade going from left to right-center) -->
+  <!-- Pivot point at ~(258, 128) -->
+  <!-- Top blade -->
+  <line x1="88" y1="118" x2="252" y2="128"
+    stroke="url(#scissorGrad)" stroke-width="9"
+    stroke-linecap="round"/>
+  <!-- Bottom blade -->
+  <line x1="88" y1="145" x2="252" y2="133"
+    stroke="url(#scissorGrad)" stroke-width="9"
+    stroke-linecap="round"/>
+
+  <!-- Pivot screw circle -->
+  <circle cx="255" cy="130" r="8"
+    fill="#CC0000" stroke="#990000" stroke-width="1.5"/>
+  <circle cx="255" cy="130" r="3"
+    fill="#7A0000"/>
+
+  <!-- Right handle loop 1 (top ring) -->
+  <ellipse cx="298" cy="105" rx="34" ry="26"
+    fill="none" stroke="url(#scissorGrad)" stroke-width="8.5"/>
+  <!-- Right handle loop 2 (bottom ring) -->
+  <ellipse cx="298" cy="158" rx="34" ry="26"
+    fill="none" stroke="url(#scissorGrad)" stroke-width="8.5"/>
+
+  <!-- Inner connector lines from pivot to rings -->
+  <line x1="263" y1="123" x2="270" y2="112"
+    stroke="#CC0000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="263" y1="137" x2="270" y2="150"
+    stroke="#CC0000" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Brand name -->
+  <text x="200" y="213"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="22"
+    font-weight="700"
+    fill="#8B0000"
+    text-anchor="middle"
+    letter-spacing="3.5">BIN SIDDIQ FABRIC</text>
+
+  <!-- Tagline -->
+  <text x="200" y="240"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="17"
+    font-weight="400"
+    fill="#CC0000"
+    text-anchor="middle"
+    letter-spacing="4">PREMIUM QUALITY</text>
+</svg>
